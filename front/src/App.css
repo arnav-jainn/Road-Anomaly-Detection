@@ -1,0 +1,80 @@
+/* General App Styles */
+.app-container {
+  max-width: 600px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.app-title {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+  font-size: 2em; /* Larger font size */
+  color: #343a40; /* Dark text color */
+}
+
+/* Upload Form Styles */
+.upload-form {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Column layout */
+}
+
+.file-label {
+  font-weight: bold; /* Bold text for label */
+}
+
+.image-preview-container {
+  margin-top: 15px; /* Space above the image preview */
+  text-align: center; /* Center the preview */
+}
+
+.preview-image {
+  max-width: 100%; /* Make sure the image is responsive */
+  max-height: 300px; /* Limit the height of the image */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ced4da; /* Light border */
+}
+
+/* Loading Spinner Styles */
+.loading-spinner {
+  text-align: center; /* Center the loading text */
+  margin-top: 20px; /* Space above the loading text */
+  font-size: 1.2em; /* Slightly larger font */
+  color: #007bff; /* Bootstrap primary color */
+}
+
+/* Button Styles */
+.btn-custom {
+  padding: 10px 15px; /* Add padding for button */
+  font-size: 16px; /* Font size */
+  background-color: #007bff; /* Primary Bootstrap color */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.btn-custom:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Result Message Styles */
+.result-message {
+  margin-top: 20px; /* Space above result messages */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.success {
+  background-color: #d4edda; /* Light green background */
+  color: #155724; /* Dark green text */
+}
+
+.error {
+  background-color: #f8d7da; /* Light red background */
+  color: #721c24; /* Dark red text */
+}
